@@ -88,3 +88,5 @@ Próximamente se desarrollarán las secciones HTML, los estilos visuales y las f
 
 - Acosta Belen Carolina
 - Rojas Jana Alexia
+- Masciotra Brea, Carolina Sol
+- 
