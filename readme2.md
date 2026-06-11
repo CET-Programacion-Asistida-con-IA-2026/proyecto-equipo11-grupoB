@@ -87,3 +87,4 @@ Próximamente se desarrollarán las secciones HTML, los estilos visuales y las f
 ## 👥 Equipo
 
 - Acosta Belen Carolina
+- Rojas Jana Alexia
