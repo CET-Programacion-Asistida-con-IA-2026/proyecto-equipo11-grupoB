@@ -83,6 +83,10 @@ Actualmente el proyecto se encuentra en etapa de planificación y diseño de la 
 Próximamente se desarrollarán las secciones HTML, los estilos visuales y las funcionalidades interactivas.
 
 ---
+## Nuestro mood board
+<img width="1131" height="637" alt="image" src="https://github.com/user-attachments/assets/4b5a8616-cc03-43b4-b5e4-4f4e64c98060" />
+
+---
 
 ## 👥 Equipo
 
