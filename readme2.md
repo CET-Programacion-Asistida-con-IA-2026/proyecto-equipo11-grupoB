@@ -94,3 +94,4 @@ Próximamente se desarrollarán las secciones HTML, los estilos visuales y las f
 - Rojas, Jana Alexia
 - Masciotra Brea, Carolina Sol
 - Crowder, Candela
+- Sosa Orsi, Julieta
