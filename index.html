@@ -20,52 +20,130 @@
   </header>
 
   <main>
-   <section id="simulador">
-  <h2>Simulador</h2>
-  <div class="post">
-    <div class="post-header">
-      <div class="avatar"></div>
-      <span class="username">@noticiafalsa</span>
-    </div>
-    <div class="post-imagen"></div>
-    <div class="post-pista">⚠️ Esta imagen fue generada con IA</div>
-    <div class="post-footer">
-      <p><strong>1,204 Me gusta</strong></p>
-      <p>Titular sensacionalista sin fuente verificada 😱🔥</p>
-    </div>
-  </div>
-</section>
 
-   <section id="tips">
-  <h2>Tips para detectar noticias falsas</h2>
-  <div class="tips-grid">
-    <div class="tip-card">
-      <span class="tip-numero">01</span>
-      <h3>Verificá la fuente</h3>
-      <p>¿El sitio tiene nombre, contacto y trayectoria? Los sitios falsos suelen no tener "Quiénes somos".</p>
-    </div>
-    <div class="tip-card">
-      <span class="tip-numero">02</span>
-      <h3>Buscá otras fuentes</h3>
-      <p>Si solo un medio lo publica, desconfiá. Las noticias reales aparecen en varios lugares.</p>
-    </div>
-    <div class="tip-card">
-      <span class="tip-numero">03</span>
-      <h3>Chequeá la imagen</h3>
-      <p>Hacé click derecho y buscá la imagen en Google. Puede ser de otro contexto o generada con IA.</p>
-    </div>
-    <div class="tip-card">
-      <span class="tip-numero">04</span>
-      <h3>Leé más allá del titular</h3>
-      <p>Los titulares sensacionalistas buscan que reacciones sin leer. Siempre leé la nota completa.</p>
-    </div>
-  </div>
-</section>
+    <section id="simulador">
+      <h2>Simulador</h2>
+      <p class="simulador-subtitulo">Hacé clic en la publicación para revelar la pista 🔍</p>
+
+      <div class="carrusel-wrapper">
+
+        <button class="carrusel-btn" id="btn-prev">&#9664;</button>
+
+        <div class="carrusel-ventana">
+
+          <!-- POST 1: Imagen generada con IA -->
+          <div class="post activo">
+            <div class="post-header">
+              <div class="avatar avatar-1"></div>
+              <div class="post-meta">
+                <span class="username">@noticias_urgentes99</span>
+                <span class="post-tiempo">hace 4 minutos</span>
+              </div>
+            </div>
+            <div class="post-imagen imagen-1">
+              <span class="imagen-label">🤖 Imagen generada con IA</span>
+            </div>
+            <div class="post-footer">
+              <p class="post-likes">❤️ 48.203 Me gusta</p>
+              <p class="post-texto">CIENTÍFICOS DESCUBREN CURA MILAGROSA 😱🔥 ¡Compartí antes de que lo borren!</p>
+            </div>
+            <div class="post-pista">
+              ⚠️ <strong>Imagen manipulada con IA:</strong> Los detalles no son naturales — los dedos, las sombras y el fondo tienen errores típicos de imágenes artificiales. Siempre buscá la imagen en Google antes de creer.
+            </div>
+          </div>
+
+          <!-- POST 2: Fuente desconocida -->
+          <div class="post">
+            <div class="post-header">
+              <div class="avatar avatar-2"></div>
+              <div class="post-meta">
+                <span class="username">@info_verdadera_ok</span>
+                <span class="post-tiempo">🆕 Cuenta creada hace 2 días</span>
+              </div>
+            </div>
+            <div class="post-imagen imagen-2">
+              <span class="imagen-label">🔗 ver-la-verdad-oculta.com.ar</span>
+            </div>
+            <div class="post-footer">
+              <p class="post-likes">❤️ 1.847 Me gusta</p>
+              <p class="post-texto">El gobierno aprobó en secreto una ley que nadie conoce. Los medios no lo muestran porque les pagaron para callarse. 👇</p>
+            </div>
+            <div class="post-pista">
+              ⚠️ <strong>Fuente desconocida:</strong> Esta cuenta tiene 2 días de antigüedad y el link lleva a un sitio sin "Quiénes somos" ni contacto. Si solo una cuenta anónima publica algo, desconfiá.
+            </div>
+          </div>
+
+          <!-- POST 3: Titular alarmista -->
+          <div class="post">
+            <div class="post-header">
+              <div class="avatar avatar-3"></div>
+              <div class="post-meta">
+                <span class="username">@alerta_maxima_arg</span>
+                <span class="post-tiempo">hace 1 hora</span>
+              </div>
+            </div>
+            <div class="post-imagen imagen-3">
+              <span class="imagen-label">📸 Foto fuera de contexto</span>
+            </div>
+            <div class="post-footer">
+              <p class="post-likes">❤️ 92.441 Me gusta</p>
+              <p class="post-texto">🚨 URGENTE 🚨 PELIGRO EXTREMO: Lo que no te están contando puede afectar a tu familia ESTA NOCHE. ¡¡COMPARTÍ YA ANTES DE QUE LO BORREN!!</p>
+            </div>
+            <div class="post-pista">
+              ⚠️ <strong>Titular alarmista:</strong> Palabras como "URGENTE", "PELIGRO EXTREMO" y "¡COMPARTÍ YA!" buscan que reacciones sin pensar. Los medios serios no usan este lenguaje. Siempre leé la nota completa.
+            </div>
+          </div>
+
+        </div><!-- fin .carrusel-ventana -->
+
+        <button class="carrusel-btn" id="btn-next">&#9654;</button>
+
+      </div><!-- fin .carrusel-wrapper -->
+
+      <div class="carrusel-indicadores">
+        <span class="indicador activo" data-idx="0"></span>
+        <span class="indicador" data-idx="1"></span>
+        <span class="indicador" data-idx="2"></span>
+      </div>
+
+      <div class="carrusel-contador">
+        <span id="contador-actual">1</span> / <span id="contador-total">3</span>
+      </div>
+
+    </section>
+
+    <section id="tips">
+      <h2>Tips para detectar noticias falsas</h2>
+      <div class="tips-grid">
+        <div class="tip-card">
+          <span class="tip-numero">01</span>
+          <h3>Verificá la fuente</h3>
+          <p>¿El sitio tiene nombre, contacto y trayectoria? Los sitios falsos suelen no tener "Quiénes somos".</p>
+        </div>
+        <div class="tip-card">
+          <span class="tip-numero">02</span>
+          <h3>Buscá otras fuentes</h3>
+          <p>Si solo un medio lo publica, desconfiá. Las noticias reales aparecen en varios lugares.</p>
+        </div>
+        <div class="tip-card">
+          <span class="tip-numero">03</span>
+          <h3>Chequeá la imagen</h3>
+          <p>Hacé click derecho y buscá la imagen en Google. Puede ser de otro contexto o generada con IA.</p>
+        </div>
+        <div class="tip-card">
+          <span class="tip-numero">04</span>
+          <h3>Leé más allá del titular</h3>
+          <p>Los titulares sensacionalistas buscan que reacciones sin leer. Siempre leé la nota completa.</p>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer>
     <p>Proyecto Fake News Detector — CET 2025</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
