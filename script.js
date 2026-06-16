@@ -8,3 +8,16 @@ post.addEventListener('click', function() {
     pista.style.display = 'block';
   }
 });
+
+document.querySelectorAll('nav a').forEach(function(link) {
+  link.addEventListener('click', function(e) {
+    const href = this.getAttribute('href');
+    if (href.startsWith('#')) {
+      e.preventDefault();
+      const destino = document.querySelector(href);
+      if (destino) {
+        destino.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  });
+});

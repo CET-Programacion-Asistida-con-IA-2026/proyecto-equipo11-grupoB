@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 /* Estilos generales */
 body {
   background-color: #0b5314;
@@ -13,6 +16,9 @@ nav {
   padding: 16px 32px;
   display: flex;
   gap: 24px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 nav a {
@@ -59,7 +65,7 @@ section {
 
 section h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 40px;
+  font-size: 50px;
   color: #cad183;
   margin-bottom: 32px;
   text-align: center;
@@ -145,4 +151,24 @@ section h2 {
 .tip-card h3 {
   font-size: 20px;
   margin: 8px 0;
+}
+
+
+/* Zoom en tarjetas */
+.tip-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.tip-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  background-color: #66023c;
+  text-align: center;
+  padding: 32px;
+  color: #fffefe;
+  font-size: 14px;
 }
