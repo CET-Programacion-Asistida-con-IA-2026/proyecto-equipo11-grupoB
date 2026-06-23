@@ -1,35 +1,98 @@
 ## Grupo B - Equipo 11
-_Curso de Programación Asistida con IA - Chicas en Tecnología_ 🚀
+# Detecta la Verdad
 
-```⚠️ Dejar la opción correcta entre Grupo A (Grupo de 17 a 19hs) y Grupo B (Grupo de 19 a 21hs) y agregar el número de equipo ⚠️```
+## 📌 Descripción del proyecto
 
-En este repositorio, se presenta el sitio web realizado durante el curso de programación frontend de CET.
+Detecta la Verdad es un sitio web educativo e interactivo que busca ayudar a adolescentes y jóvenes a identificar noticias falsas, imágenes manipuladas y contenidos engañosos que circulan en internet y redes sociales.
 
-### 📄 Entregas
-**Entrega #1**: planificación de la solución y primeros resultados que obtengamos con la IA:
+El proyecto surge ante la necesidad de fortalecer el pensamiento crítico y la alfabetización digital en un contexto donde gran parte de la información se consume a través de plataformas como TikTok, Instagram y portales de noticias.
 
-📝 Edición del Archivo README incluyendo:
-- Definición de la problemática que eligieron abordar
-- Relación con los *Objetivos de Desarrollo Sostenible (ODS)*[^1]
-- Explicación de la solución tecnológica que están desarrollando
-> [!TIP]
-> Aprovechen los [formatos del README](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) para escribir diferentes secciones
+Este proyecto se relaciona con los siguientes Objetivos de Desarrollo Sostenible:
 
-🎨 Moodboard
+- ODS 4: Educación de Calidad
+- ODS 16: Paz, Justicia e Instituciones Sólidas
 
-🧩 Archivos generados con asistencia de IA: ```index.html```, ```style.css```, ```script.js```
+---
 
+## 🚨 Problema
 
-**Entrega #2 (Final)**: se esperan modificaciones en el código respecto a la entrega anterior, que pueden incluir nuevos archivos o extensión de los existentes (debe haber al menos un archivo de cada lenguaje visto - HTML, CSS y Javascript)
+Actualmente los jóvenes reciben grandes cantidades de información todos los días, pero muchas veces no cuentan con herramientas para verificar si una noticia, imagen o video es verdadero.
 
-💡 Es una buena idea llevar un registro de lo que cambiamos. Por ejemplo
-```
-- Agregamos Bootstrap para el carrousel de imágenes...
-- Modificamos el texto de la sección de bienvenida...
-- Transformamos los textos sobre redes sociales en links...
-```
+La desinformación y las fake news pueden influir en opiniones, decisiones y comportamientos, generando confusión y propagando información incorrecta.
 
-Ahora si, ¡A programar! 🚀
+---
 
+## 🎯 Público objetivo
 
-[^1]: Los Objetivos de Desarrollo Sostenible u Objetivos Globales, también conocidos como Agenda 2030, son 17 objetivos globales interconectados diseñados para ser un «plan para lograr un futuro mejor y más sostenible para todos». Más información en https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/
+- Adolescentes y jóvenes que utilizan internet y redes sociales de forma frecuente.
+- Personas interesadas en aprender a detectar noticias falsas y verificar información antes de compartirla.
+
+---
+
+## 💡 Solución
+
+La propuesta consiste en desarrollar un sitio web interactivo de simulación.
+
+La página mostrará ejemplos similares a publicaciones reales de redes sociales para que las personas usuarias practiquen la identificación de señales de desinformación.
+
+A través de ejemplos guiados, aprenderán a reconocer elementos como:
+
+- Titulares sensacionalistas.
+- Falta de fuentes confiables.
+- Imágenes manipuladas.
+- Información fuera de contexto.
+
+---
+
+## ⚙️ Funcionalidades principales
+
+### 1. Simulador de publicaciones
+
+Se mostrarán publicaciones ficticias similares a las de una red social.
+
+La persona usuaria podrá explorar distintos elementos y descubrir pistas que indiquen si el contenido es confiable o engañoso.
+
+### 2. Pistas interactivas
+
+Al interactuar con diferentes partes de una publicación, se revelarán explicaciones sobre qué aspectos analizar para verificar la información.
+
+### 3. Guía rápida de verificación
+
+Se incluirá una lista de pasos simples para revisar una noticia antes de compartirla.
+
+Por ejemplo:
+
+- Verificar la fuente.
+- Revisar la fecha.
+- Buscar otras fuentes que confirmen la información.
+- Analizar si el titular es exagerado o alarmista.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## 🎨 Estado del proyecto
+
+Actualmente el proyecto se encuentra en etapa de planificación y diseño de la estructura inicial del sitio web.
+
+Próximamente se desarrollarán las secciones HTML, los estilos visuales y las funcionalidades interactivas.
+
+---
+## Nuestro mood board
+<img width="1131" height="637" alt="image" src="https://github.com/user-attachments/assets/4b5a8616-cc03-43b4-b5e4-4f4e64c98060" />
+
+---
+
+## 👥 Equipo
+
+- Acosta, Belen Carolina
+- Rojas, Jana Alexia
+- Masciotra Brea, Carolina Sol
+- Crowder, Candela
+- Sosa Orsi, Julieta
