@@ -105,7 +105,7 @@ Próximos pasos: seguir puliendo el diseño visual y sumar más ejemplos al simu
 
 ---
 ## Nuestro mood board
-<img width="1131" height="637" alt="image" src="https://github.com/user-attachments/assets/4b5a8616-cc03-43b4-b5e4-4f4e64c98060" />
+<img width="1366" height="768" alt="moodboard" src="https://github.com/user-attachments/assets/97b3217d-80e0-469c-8557-6f2acca27db3" />
 
 ---
 
