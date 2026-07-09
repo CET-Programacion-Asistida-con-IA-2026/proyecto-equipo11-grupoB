@@ -447,3 +447,136 @@ footer {
   color: #fffefe;
   font-size: 14px;
 }
+
+/* Contacto */
+
+.contenedor-formulario{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px;
+
+}
+
+.card-formulario{
+
+    width:100%;
+    max-width:700px;
+
+    background: #a0305a;
+
+    border-radius:25px;
+
+    padding:45px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+
+}
+
+input,
+select,
+textarea{
+
+    width:100%;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    border:none;
+
+    font-size:16px;
+
+    box-sizing:border-box;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+
+    outline:3px solid #66023c;
+
+}
+
+button{
+
+    margin-top:30px;
+
+    width:100%;
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:30px;
+
+    background:#859122 ;
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background: #cad183 ;
+
+    transform:scale(1.03);
+
+}
+
+
+#respuesta{
+    margin-top:30px;
+}
+
+.mensaje-ok{
+
+    background:#D8DD8E;
+    color:#083D12;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    border-left:8px solid #79004D;
+
+    animation: aparecer .6s;
+}
+
+.error{
+
+    background:#FFD6D6;
+
+    color:#9C0000;
+
+    padding:15px;
+
+    border-radius:12px;
+}
+
+@keyframes aparecer{
+
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}

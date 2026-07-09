@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<main class="contenedor-formulario">
+
+    <div class="card-formulario">
+
+        <h1>¿Encontraste una posible fake news?</h1>
+
+        <p class="subtitulo">
+            Compartí el enlace y practiquemos cómo verificar la información.
+        </p>
+
+<form id="formFake">
+
+    <label>Nombre</label>
+    <input type="text" id="nombre" placeholder="Tu nombre opcional"> <br>
+
+    <label>Link de la publicación</label>
+    <input type="url" id="link" required><br>
+
+    <label>¿Dónde la viste?</label>
+    <select id="redSocial" required>
+        <option value="">Seleccioná una opción</option>
+        <option>Instagram</option>
+        <option>TikTok</option>
+        <option>Facebook</option>
+        <option>X</option>
+        <option>WhatsApp</option>
+        <option>Otra</option>
+    </select><br>
+
+    <label>¿Por qué te parece sospechosa?</label><br>
+    <textarea id="descripcion" rows="6" required></textarea><br>
+
+    <button type="submit">
+        Enviar para analizar
+    </button><br>
+
+</form>
+
+
+    <div id="respuesta"></div>
+</div>
+
+</main>
+<script src="script.js"></script>
+
+</body>
+</html>
