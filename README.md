@@ -31,57 +31,77 @@ La desinformación y las fake news pueden influir en opiniones, decisiones y com
 
 ## 💡 Solución
 
-La propuesta consiste en desarrollar un sitio web interactivo de simulación.
+La propuesta consiste en un sitio web interactivo de simulación.
 
-La página mostrará ejemplos similares a publicaciones reales de redes sociales para que las personas usuarias practiquen la identificación de señales de desinformación.
+La página muestra ejemplos similares a publicaciones reales de redes sociales para que las personas usuarias practiquen la identificación de señales de desinformación.
 
-A través de ejemplos guiados, aprenderán a reconocer elementos como:
+A través de ejemplos guiados, las personas usuarias aprenden a reconocer elementos como:
 
 - Titulares sensacionalistas.
 - Falta de fuentes confiables.
-- Imágenes manipuladas.
+- Imágenes manipuladas o generadas con IA.
 - Información fuera de contexto.
 
 ---
 
-## ⚙️ Funcionalidades principales
+## ⚙️ Funcionalidades implementadas
 
 ### 1. Simulador de publicaciones
 
-Se mostrarán publicaciones ficticias similares a las de una red social.
+Carrusel interactivo con 3 publicaciones ficticias similares a las de una red social (imagen generada con IA, fuente desconocida y titular alarmista).
 
-La persona usuaria podrá explorar distintos elementos y descubrir pistas que indiquen si el contenido es confiable o engañoso.
+Se puede navegar entre publicaciones con flechas o con los indicadores, con una animación de transición tipo zoom.
 
 ### 2. Pistas interactivas
 
-Al interactuar con diferentes partes de una publicación, se revelarán explicaciones sobre qué aspectos analizar para verificar la información.
+Al hacer clic sobre cada publicación se revela una pista que explica qué señal de alerta tiene ese contenido y por qué hay que desconfiar.
 
-### 3. Guía rápida de verificación
+### 3. Sección "¿Qué son las Fake News?"
 
-Se incluirá una lista de pasos simples para revisar una noticia antes de compartirla.
+Explicación con estadísticas destacadas sobre el impacto de la desinformación.
 
-Por ejemplo:
+### 4. Tips para detectar noticias falsas
 
-- Verificar la fuente.
-- Revisar la fecha.
-- Buscar otras fuentes que confirmen la información.
-- Analizar si el titular es exagerado o alarmista.
+Cuatro tarjetas con efecto flip (se dan vuelta al pasar el mouse o hacer foco) con consejos prácticos de verificación.
+
+### 5. Formulario de contacto
+
+Página dedicada (`contacto.html`) donde la persona usuaria puede reportar una posible fake news que encontró, cargando el link, la red social de origen y una descripción. El formulario valida los campos obligatorios y muestra una devolución con recomendaciones de verificación.
+
+### 6. Diseño responsive
+
+El sitio se adapta a distintos tamaños de pantalla (notebook, tablet y celular) mediante media queries.
 
 ---
 
 ## 🛠️ Tecnologías utilizadas
 
-- HTML
-- CSS
-- JavaScript
+- HTML5
+- CSS3 (con animaciones, flexbox, grid y media queries)
+- JavaScript (vanilla, sin librerías externas)
+
+---
+
+## 📂 Estructura del proyecto
+
+```
+├── index.html        → página principal (inicio, qué son las fake news, simulador, tips)
+├── contacto.html      → formulario de reporte de posibles fake news
+├── styles.css         → estilos generales del sitio
+├── carrusel.js         → lógica del simulador (carrusel, pistas, scroll)
+├── contacto.js         → lógica del formulario de contacto
+└── README.md
+```
 
 ---
 
 ## 🎨 Estado del proyecto
 
-Actualmente el proyecto se encuentra en etapa de planificación y diseño de la estructura inicial del sitio web.
+El sitio se encuentra funcional, con sus secciones principales implementadas: simulador interactivo, sección informativa, tips y formulario de contacto.
 
-Próximamente se desarrollarán las secciones HTML, los estilos visuales y las funcionalidades interactivas.
+Como parte de la última iteración se separó el JavaScript en dos archivos (`carrusel.js` y `contacto.js`) para evitar conflictos entre páginas, se agregó la barra de navegación a la página de contacto, se sumaron mejoras de accesibilidad en el formulario, se limpió código CSS y se incorporó diseño responsive para celulares y tablets.
+
+Próximos pasos: seguir puliendo el diseño visual y sumar más ejemplos al simulador de cara a la presentación final.
 
 ---
 ## Nuestro mood board
