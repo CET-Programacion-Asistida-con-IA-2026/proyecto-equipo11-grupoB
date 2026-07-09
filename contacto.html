@@ -10,6 +10,15 @@
 </head>
 
 <body>
+
+  <nav>
+    <a href="index.html#inicio">Inicio</a>
+    <a href="index.html#que-son">¿Qué son?</a>
+    <a href="index.html#simulador">Simulador</a>
+    <a href="index.html#tips">Tips</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
 <main class="contenedor-formulario">
 
     <div class="card-formulario">
@@ -22,13 +31,13 @@
 
 <form id="formFake">
 
-    <label>Nombre</label>
+    <label for="nombre">Nombre</label>
     <input type="text" id="nombre" placeholder="Tu nombre opcional"> <br>
 
-    <label>Link de la publicación</label>
+    <label for="link">Link de la publicación</label>
     <input type="url" id="link" required><br>
 
-    <label>¿Dónde la viste?</label>
+    <label for="redSocial">¿Dónde la viste?</label>
     <select id="redSocial" required>
         <option value="">Seleccioná una opción</option>
         <option>Instagram</option>
@@ -39,7 +48,7 @@
         <option>Otra</option>
     </select><br>
 
-    <label>¿Por qué te parece sospechosa?</label><br>
+    <label for="descripcion">¿Por qué te parece sospechosa?</label><br>
     <textarea id="descripcion" rows="6" required></textarea><br>
 
     <button type="submit">
@@ -53,7 +62,7 @@
 </div>
 
 </main>
-<script src="script.js"></script>
+<script src="contacto.js"></script>
 
 </body>
 </html>
