@@ -223,10 +223,12 @@ section h2 {
   height: 40px;
   border-radius: 50%;
   flex-shrink: 0;
+  background-size: cover;
+  background-position: center;
 }
-.avatar-1 { background-color: #66023c; }
-.avatar-2 { background-color: #0b5314; }
-.avatar-3 { background-color: #859122; }
+.avatar-1 {  background-image: url("https://i.pinimg.com/736x/39/2e/0f/392e0f462c42eff5c04a836ef86fa3ca.jpg");}
+.avatar-2 {  background-image: url("https://i.pinimg.com/736x/75/56/3a/75563a5d18d64059eee572f6866be360.jpg");}
+.avatar-3 { background-image: url("https://i.pinimg.com/1200x/9d/0e/de/9d0edee2e97330c38e7d0a3fabffba7d.jpg") }
  
 .post-meta {
   display: flex;
@@ -259,10 +261,10 @@ section h2 {
 
 .imagen-label{
     position:absolute;
-    bottom:20px;
+    bottom:80px;
     left:50%;
     transform:translateX(-50%);
-    background:#183c1c;
+    background: linear-gradient(135deg, #859122, #cad183);
     color:white;
     padding:10px 18px;
     border-radius:20px;
